@@ -6,7 +6,17 @@ The following repo contains the keymap files that are located in
 
 ### Check if qmk is ready
 ``` bash
+qmk setup
 qmk doctor
+```
+
+### Troubleshooting
+if you are getting any errors
+you can
+``` bash
+rm -rf ~/qmk_firmware
+# this will also delete your keymaps!
+sudo pacman -S qmk
 ```
 
 ### 1. Visit [qmk configurator](https://config.qmk.fm/#/sofle/) and make your layouts!
