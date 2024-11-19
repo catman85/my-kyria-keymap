@@ -11,13 +11,14 @@ qmk doctor
 ```
 
 ### Troubleshooting
-on this keyboard the master is right by default
-messing with define master right, doesn't fix the problem
-if you are getting any errors
-you can remove and reinstall the qmk_firmware folder
+On this keyboard the master is right by default.
+Messing with #define master right in config.h, doesn't fix the problem.
+If you are getting any errors,
+you can remove and reinstall the ~/qmk_firmware folder.
 ``` bash
-rm -rf ~/qmk_firmware
 # this will also delete your keymaps!
+rm -rf ~/qmk_firmware
+# andt then reinstall
 sudo pacman -S qmk
 ```
 
