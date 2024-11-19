@@ -4,3 +4,4 @@ RGB_MATRIX_ENABLE = no     # Disable keyboard RGB matrix, as it is enabled by de
 RGBLIGHT_ENABLE = no      # Enable keyboard RGB underglow
 MOUSEKEY_ENABLE = yes
 ENCODER_ENABLE = yes
+BOOTLOADER = caterina 		# for arduino boards
