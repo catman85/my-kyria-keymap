@@ -35,3 +35,4 @@
 #    endif
 #endif
 
+#define MASTER_RIGHT
